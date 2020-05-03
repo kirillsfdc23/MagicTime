@@ -5,6 +5,7 @@
 public class AccountTriggerHandler {
     public static void upsertAccount(List<Account> accList) {
         updateContactLanguages(accList);
+        System.debug('Hello');
     }
 
     private static void updateContactLanguages(List<Account> accList) {
